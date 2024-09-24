@@ -8,4 +8,3 @@ on:
 jobs:
   run-reusable-build-test-release:
     uses: bdebek-splunk/reusable-build-test-release/.github/workflows/build-release.yml@main
-    secrets: inherit
